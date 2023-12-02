@@ -1,0 +1,26 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the font size */
+body {
+    font-size: 20px;
+}
+
+/* Styling the menu links */
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.menu a:hover {
+    color: #ff6600; /* Change color on hover */
+}
